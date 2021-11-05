@@ -1,0 +1,51 @@
+body {
+    background-image :url('sp2.jpg');
+    height: 100%;
+    background-position: center;    
+}
+
+#clockcontainer{
+    position: relative;
+    margin: auto;
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    background-image: url(clockface.jpg) ;
+    background-size: 100%;
+}
+
+#hour, #minute, #second {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+    width: 17px;
+    height: 78px;
+    top: 184px;
+    left: 246px;
+}
+
+#minute{
+    width: 8px;
+    height: 136px;
+    top: 125px;
+    left: 249px;
+}
+
+#second{
+    width: 4px;
+    height: 154px;
+    top: 107px;
+    left: 253px;
+}
+
+#footer {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    
+}
